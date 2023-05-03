@@ -31,9 +31,16 @@ show_excerpts: true
 permalink: /:collection/:year-:month-:day-:title:output_ext
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
+minima:
+  skin: dark
+  social_links:
+    - { platform: github, user_url: "https://github.com/stephan7878" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/stephan-bester-80a857b/"}
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
