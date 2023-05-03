@@ -22,7 +22,7 @@ title: Code Chronicles
 author:
   name: Stephan Bester
 description: >- # this means to ignore newlines until "baseurl:"
-  My blog about coding and technology.
+  A blog about coding and technology.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://stephan7878.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
