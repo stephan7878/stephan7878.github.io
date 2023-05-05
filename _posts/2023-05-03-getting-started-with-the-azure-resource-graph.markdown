@@ -6,8 +6,8 @@ date:   2023-05-03 12:15:00 +0200
 categories: azure
 ---
 
-![resource-graph-explorer]({{ "/assets/2023-05-03-resource-graph-explorer.png" | relative_url }}){: width="30%" style="float: left; margin-right: 1em;" } 
-The Azure Resource Graph is a very useful service which allows you to query your Azure resources from the Resource Graph Explorer within the [Azure Portal][portal], using [Kusto Query Langauge (KQL)][kql]. 
+![resource-graph-explorer]({{ "/assets/2023-05-03-resource-graph-explorer.png" | relative_url }}){: width="30%" style="float: left; margin-right: 1em;" }
+The Azure Resource Graph is a very useful service which allows you to query your Azure resources from the Resource Graph Explorer within the [Azure Portal][portal], using [Kusto Query Langauge (KQL)][kql].
 
 I recently used it on a project where we needed to inspect a complex Azure environment with many different Virtual Machines and Disks. In this blog post I will help you get started with the Resource Graph and share some very basic KQL queries!
 
@@ -84,7 +84,6 @@ As you can see, the Azure Resource Graph is a powerful way to query resources. W
   - [2 - Use aggregate functions][use-aggregation-functions]
   - [3 - Join data from multiple tables][join-data-from-multiple-tables]
   - [4 - Create geospatial visualizations][create-geospatial-visualizations]
-
 
 [resource-graph-overview]: https://docs.microsoft.com/azure/governance/resource-graph/overview
 [resource-graph-get-started]: https://docs.microsoft.com/azure/governance/resource-graph/first-query-portal

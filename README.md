@@ -2,7 +2,7 @@
 
 This is the repository for my blog, created with Jekyll and hosted on GitHub Pages.
 
-## Local Development 
+## Local Development
 
 ### Installation
 
@@ -60,4 +60,3 @@ bundle exec jekyll serve
 - [GitHub Pages](https://pages.github.com/)
 - [Jekyll Quickstart](https://jekyllrb.com/docs/)
 - [Build A Portfolio With A Blog Using GitHub Pages](https://simondosda.github.io/posts/2021-09-13-blog-github-pages-1-introduction.html)
-

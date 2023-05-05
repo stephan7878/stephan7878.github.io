@@ -10,6 +10,5 @@ It was created with [Jekyll][jekyll] and it is hosted on [GitHub Pages][github-p
 
 The source is available at [https://github.com/stephan7878/stephan7878.github.io](https://github.com/stephan7878/stephan7878.github.io)
 
-
 [github-pages]: https://pages.github.com/
 [jekyll]: https://jekyllrb.com/docs/
