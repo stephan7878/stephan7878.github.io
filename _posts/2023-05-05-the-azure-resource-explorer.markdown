@@ -23,7 +23,7 @@ From your browser you can access the Azure Resource Explorer by navigating to [r
 
 ![resource-exp-blade]({{ "/assets/2023-05-05-resource-exp-blade.png" | relative_url }})
 
-Note that not all features are available from within the portal.
+Note that not all features are available from within the portal, so I will be using [resources.azure.com][resource-exp].
 
 On the left you can expand the tree view to generate various queries within your subscription. When accessing the `providers` view, you are generating a subscription-wide query for a specific type of resource. For instance, retrieve all disks within the subscription by expanding:
 
@@ -37,7 +37,7 @@ On the left you can expand the tree view to generate various queries within your
 
 ![re-providers-disk]({{ "/assets/2023-05-05-re-providers-disk.png" | relative_url }})
 
-The resources are returned as JSON within a value array. Notice that the corrosponding GET query for the API is also displayed.
+The resources are returned as JSON within a value array. Notice that the corrosponding `GET` query for the API is also displayed.
 
 We can also query for all resources within a scope, for instance all resources within a specific resource group.
 
