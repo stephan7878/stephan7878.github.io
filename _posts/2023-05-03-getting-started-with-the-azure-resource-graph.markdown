@@ -71,7 +71,7 @@ resources
 
 ### Conclusion
 
-As you can see, the Azure Resource Graph is a powerful way to query resources. With support many [common operators][learn-common-operators], [aggregate functions][use-aggregation-functions], [table joins][join-data-from-multiple-tables] and [geospatial visualizations][create-geospatial-visualizations] you can easily create powerful queries to gain insights and vizualize the results.
+As you can see, the Azure Resource Graph is a powerful way to query resources. With support for many [common operators][learn-common-operators], [aggregate functions][use-aggregation-functions], [table joins][join-data-from-multiple-tables] and [geospatial visualizations][create-geospatial-visualizations] you can easily create powerful queries to gain insights and vizualize the results.
 
 ### Useful links
 
