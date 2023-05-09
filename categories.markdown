@@ -13,7 +13,7 @@ permalink: /categories/
 
 {% for post in site.categories[category_name] %}
 
-- [{{post.title}}]({{ site.baseurl }}{{ post.url }})
+- {{post.date | date_to_string}}: [{{post.title}}]({{ site.baseurl }}{{ post.url }})
 
 {% endfor %}
 
