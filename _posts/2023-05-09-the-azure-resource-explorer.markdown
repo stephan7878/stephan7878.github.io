@@ -2,11 +2,11 @@
 layout: post
 title:  "The Azure Resource Explorer"
 author: "Stephan Bester"
-date:   2023-05-05 10:08:00 +0200
+date:   2023-05-09 10:03:00 +0200
 categories: azure
 ---
 
-![arm-explorer]({{ "/assets/2023-05-05-arm-explorer.png" | relative_url }}){: width="5%" style="float: left; margin-right: 1em;" }
+![arm-explorer]({{ "/assets/2023-05-09-arm-explorer.png" | relative_url }}){: width="5%" style="float: left; margin-right: 1em;" }
 The [Azure Resource Explorer][resource-exp] is great tool that you can use to execute queries on the Azure Resource Management API's directly from your browser against your own subscriptions. This is a great way to discover the API's that are available and it provides you with both the REST queries and Ansible samples for easy programatic use or automation!
 
 ### Prerequisites
@@ -19,9 +19,9 @@ If you do not have your own Azure subscription, you can always follow along with
 
 From your browser you can access the Azure Resource Explorer by navigating to [resources.azure.com][resource-exp], or from within the [Azure Portal][portal] you can search for the Resource Explorer to access the [Resource Explorer Blade][resource-exp-blade].
 
-![resource-exp]({{ "/assets/2023-05-05-resource-exp.png" | relative_url }})
+![resource-exp]({{ "/assets/2023-05-09-resource-exp.png" | relative_url }})
 
-![resource-exp-blade]({{ "/assets/2023-05-05-resource-exp-blade.png" | relative_url }})
+![resource-exp-blade]({{ "/assets/2023-05-09-resource-exp-blade.png" | relative_url }})
 
 Note that not all features are available from within the portal, so I will be using [resources.azure.com][resource-exp].
 
@@ -35,7 +35,7 @@ On the left you can expand the tree view to generate various queries within your
 |   |   |   |   |-- disks
 ```
 
-![re-providers-disk]({{ "/assets/2023-05-05-re-providers-disk.png" | relative_url }})
+![re-providers-disk]({{ "/assets/2023-05-09-re-providers-disk.png" | relative_url }})
 
 The resources are returned as JSON within a value array. Notice that the corrosponding `GET` query for the API is also displayed.
 
@@ -49,11 +49,11 @@ We can also query for all resources within a scope, for instance all resources w
 |   |   |   |   |-- resources
 ```
 
-![re-resources]({{ "/assets/2023-05-05-re-resources.png" | relative_url }})
+![re-resources]({{ "/assets/2023-05-09-re-resources.png" | relative_url }})
 
 Notice that there is also an Ansible tab, which generates the corresponding Ansible tasks that will perform the same query.
 
-![re-resources-ansible]({{ "/assets/2023-05-05-re-resources-ansible.png" | relative_url }})
+![re-resources-ansible]({{ "/assets/2023-05-09-re-resources-ansible.png" | relative_url }})
 
 We can also combine the two concepts, querying for specific types within a specific resource group. Let's see all virtual machines within the resource group.
 
@@ -67,7 +67,7 @@ We can also combine the two concepts, querying for specific types within a speci
 |   |   |   |   |   |   |-- virtualMachines
 ```
 
-![re-virtualMachines]({{ "/assets/2023-05-05-re-virtualMachines.png" | relative_url }})
+![re-virtualMachines]({{ "/assets/2023-05-09-re-virtualMachines.png" | relative_url }})
 
 ### Conclusion
 
