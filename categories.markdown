@@ -4,12 +4,11 @@ title: Categories
 permalink: /categories/
 ---
 
-
 {% for category in site.categories %}
 
 {% capture category_name %}{{ category | first }}{% endcapture %}
 
-## {{ category_name | capitalize }}
+## #{{ category_name }}
 
 {% for post in site.categories[category_name] %}
 
